@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.result-area {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+#currentArray, #currentRealArray {
+    font-family: 'Courier New', monospace;
+    word-wrap: break-word;
+}
+
+.btn:focus, .form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
+}
+
+/* Thêm hiệu ứng hover cho các nút */
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+/* Style cho vùng kết quả */
+.result-area {
+    transition: all 0.3s ease;
+}
+
+.result-area:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
